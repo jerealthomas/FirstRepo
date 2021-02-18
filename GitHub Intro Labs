@@ -1,0 +1,22 @@
+Last login: Thu Feb 18 12:26:05 on ttys001
+jerealthomas@Jereals-MBP ~ % mkdir FirstRepo
+jerealthomas@Jereals-MBP ~ % git init
+Initialized empty Git repository in /Users/jerealthomas/.git/
+jerealthomas@Jereals-MBP ~ % cd FirstRepo
+jerealthomas@Jereals-MBP FirstRepo % echo This is a message > my-message.txt
+jerealthomas@Jereals-MBP FirstRepo % git remote add origin https://github.com/jerealthomas/FirstRepo.git
+jerealthomas@Jereals-MBP FirstRepo % git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/jerealthomas/FirstRepo.git'
+jerealthomas@Jereals-MBP FirstRepo % git branch feature
+fatal: Not a valid object name: 'master'.
+jerealthomas@Jereals-MBP FirstRepo % 
+
+
+
+
+
+
+
+
+
